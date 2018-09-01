@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CartaVirtual</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="ver_menu">Ver Menu</string>
+    <string name="ver_ubicacion">Ver Ubicacion</string>
+    <string name="reservar_mesa">Reservar Mesa</string>
+    <string name="calificar_servicio">Calificar Servicio</string>
+    <string name="entradas">Entradas</string>
+    <string name="plato_fuerte">Plato Fuerte</string>
+    <string name="postres">Postres</string>
+    <string name="Licores">Button</string>
+    <string name="licores">Licores</string>
+    <string name="txt">TextView</string>
+    <string name="titulo">Titulo</string>
+    <string name="precio">Precio</string>
+    <string name="imgcompleta">imgCompleta</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="inicial">INICIAL</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="de_una_puntuacion_n_a_la_atencion_prestada">De una puntuacion   a la atencion prestada</string>
+    <string name="gracias">Gracias</string>
+</resources>

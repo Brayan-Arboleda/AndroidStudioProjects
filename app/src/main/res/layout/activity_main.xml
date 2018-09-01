@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnVerMenu"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/ver_menu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/btnUbicacion"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnVerMenu"
+        android:text="@string/ver_ubicacion"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/btnReservar"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnUbicacion"
+        android:text="@string/reservar_mesa"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/btnCalificar"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnReservar"
+        android:text="@string/calificar_servicio"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageView
+        android:id="@+id/inicial"
+        android:layout_width="323dp"
+        android:layout_height="263dp"
+        android:layout_below="@+id/btnCalificar"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/inicial"
+        app:srcCompat="@drawable/inicial" />
+
+</RelativeLayout>
